@@ -31,3 +31,11 @@ Der bevorzugte Entwurf ist als tatsächliches CSS-/HTML-Layout umgesetzt: Anthra
 ## Offizielles Verdes-Group-Logo
 
 Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit/Champagner-Beige ist als optimierte WebP-Datei unter `/assets/verdes-group-logo.webp` abgelegt und auf allen Seiten im Kopf- und Fußbereich integriert. Für hochwertige Druckprodukte das Original in maximaler Auflösung bzw. eine professionell nachgezeichnete Vektorversion verwenden.
+
+## Impressum und Datenschutz: verifizierter Arbeitsstand (2026-11-23)
+
+- Verdes Objektservice und Verdes Verkehrsleiter & Transportberater: Oldenburger Str. 128A, 27753 Delmenhorst.
+- M&V Transporte: Brendelweg 168, 27755 Delmenhorst; Inhaber Alexandros Milidis; operative Geschäftsleitung Alexandros Milidis und Vadim Verdes; E-Mails vadim@verdes-trans.com und milidis@mail.de.
+- Verantwortlicher für den Betrieb der gemeinsamen Website: Vadim Verdes, Oldenburger Str. 128A, 27753 Delmenhorst.
+- M&V ist derzeit als Einzelunternehmen mit Inhaber bezeichnet; deshalb **nicht** die (organschaftliche) Bezeichnung "zwei Geschäftsführer" im Impressum verwenden, bis die Rechtsform etwas anderes belegt.
+- **Vor Livegang offen:** Firmierungen und Rechtsformen, eventuelle Handelsregistereinträge, USt-IdNr/W-IdNr, Genehmigungs-/Aufsichtsbehörde, Hosting-Auftragsverarbeitung, Datenschutzhinweise zu konkreten Serverlogs, Bildlizenzen, externen Bildzugriffen und rechtliche Prüfung.
