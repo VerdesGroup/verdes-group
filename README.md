@@ -6,13 +6,13 @@ Statische, responsive Website für die Dachmarke **Verdes Group**.
 
 - / – Startseite
 - /objektservice/ – Verdes Objektservice
-- /verkehrsleitung/ – Verdes Verkehrsleiter & Transportberater
+- /verkehrsleitung/ – Verdes Verkehrsleiter & Transportberater\n- /mv-transporte/ – M&amp;V Transporte (rechtlich eigenständiges Partnerunternehmen)
 - /ueber-uns/ – Über uns
 - /kontakt/ – Kontakt
 - /impressum/ – Entwurf; **vor Veröffentlichung vervollständigen**
 - /datenschutz/ – Entwurf; **vor Veröffentlichung vervollständigen**
 
-## Lokal ansehen
+## Geschäftsbereiche und Kontaktadressen\n\n- Verdes Objektservice — Inhaberin Ana Verdes — objektservice@verdes-group.de\n- Verdes Verkehrsleiter & Transportberater — Inhaber Vadim Verdes — verkehrsleiter@verdes-trans.com\n- M&V Transporte — Inhaber Alexandros Milidis — betriebliche Zusammenarbeit mit Vadim Verdes — vadim@verdes-trans.com\n\n**verdes-group.de ist die Hauptdomain.** Die bestehende Domain verdes-trans.com bleibt für E-Mail-Adressen im Einsatz. Kein Domainwechsel für bestehende E-Mail-Postfächer erforderlich.\n\nDie rechtliche Partnerstruktur darf nicht als gesellschaftsrechtliche 50/50-Beteiligung dargestellt werden, solange diese nicht rechtlich geklärt bzw. dokumentiert ist.\n\n## Lokal ansehen
 
 Im Repositoryordner einen lokalen HTTP-Server starten, z. B. `python -m http.server 8000`, dann `http://localhost:8000` öffnen.
 
