@@ -38,6 +38,8 @@ Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit
 - M&V Transporte: Brendelweg 168, 27755 Delmenhorst; Inhaber Alexandros Milidis; operative Geschäftsleitung Alexandros Milidis und Vadim Verdes; E-Mails vadim@verdes-trans.com und milidis@mail.de.
 - Verantwortlicher für den Betrieb der gemeinsamen Website: Vadim Verdes, Oldenburger Str. 128A, 27753 Delmenhorst.
 - M&V ist derzeit als Einzelunternehmen mit Inhaber bezeichnet; deshalb **nicht** die (organschaftliche) Bezeichnung "zwei Geschäftsführer" im Impressum verwenden, bis die Rechtsform etwas anderes belegt.
-- **Vor Livegang offen:** Firmierungen und Rechtsformen, eventuelle Handelsregistereinträge, USt-IdNr/W-IdNr, Genehmigungs-/Aufsichtsbehörde, Hosting-Auftragsverarbeitung, Datenschutzhinweise zu konkreten Serverlogs, Bildlizenzen, externen Bildzugriffen und rechtliche Prüfung.
+- **Vor Livegang offen:** finale Prüfung der offiziellen Unternehmensbezeichnungen und Pflichtangaben, Hosting-Auftragsverarbeitung, Datenschutzhinweise zu konkreten Serverlogs, Bildlizenzen, externen Bildzugriffen und rechtliche Prüfung.
 
 - Laut bestätigter Auskunft des Nutzers (23.11.2026) sind für Verdes Objektservice und Verdes Verkehrsleiter & Transportberater **keine USt-IdNr. oder W-IdNr. vorhanden**; daher im Impressum keine Identifikationsnummer für diese beiden Betriebe aufführen. M&V Transporte: USt-IdNr. DE344739509.
+
+- Bestätigung des Nutzers (23.11.2026): Verdes Objektservice, Verdes Verkehrsleiter & Transportberater und M&V Transporte sind **nicht im Handelsregister eingetragen**, jeweils Einzelunternehmen ohne e.K.-Eintrag; im öffentlichen Impressum daher keine Handelsregisterangaben ergänzen.
