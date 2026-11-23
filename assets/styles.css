@@ -260,3 +260,9 @@ h2{color:#242629}
  .mv-opportunity-card h3{font-size:32px}
  .mv-opportunity-card .btn{width:100%;padding-inline:13px}
 }
+
+
+/* Navigation from M&V contact card into recruiting and cooperation */
+.mv-contact-opportunity-links{display:flex;gap:10px 22px;flex-wrap:wrap;margin-top:22px}
+.mv-contact-opportunity-links a{color:#755d43;text-decoration:underline;text-underline-offset:4px;font-size:13px;font-weight:750}
+.mv-contact-opportunity-links a:hover{color:#272829}
