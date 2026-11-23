@@ -43,3 +43,14 @@ Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit
 - Laut bestätigter Auskunft des Nutzers (23.11.2026) sind für Verdes Objektservice und Verdes Verkehrsleiter & Transportberater **keine USt-IdNr. oder W-IdNr. vorhanden**; daher im Impressum keine Identifikationsnummer für diese beiden Betriebe aufführen. M&V Transporte: USt-IdNr. DE344739509.
 
 - Bestätigung des Nutzers (23.11.2026): Verdes Objektservice, Verdes Verkehrsleiter & Transportberater und M&V Transporte sind **nicht im Handelsregister eingetragen**, jeweils Einzelunternehmen ohne e.K.-Eintrag; im öffentlichen Impressum daher keine Handelsregisterangaben ergänzen.
+
+
+## Netlify-Vorabprüfung am 23.11.2026
+- Netlify-Projekt durch Eigentümer eingerichtet und in Screenshot als **Private** gekennzeichnet, automatisches Deployment aus `main` aktiv.
+- Test-Subdomain: `verdes-group.netlify.app`. `verdes-group.de` bei STRATO ist noch **nicht** verbunden; Mail-DNS darf bei späterer Einrichtung nicht verändert werden.
+- Datenschutzerklärung als **Entwurf** konkretisiert: Hosting durch Netlify, Inc., Datenverarbeitungs-Verweise und Prüfaufgaben eingefügt.
+- Browser-`theme-color` auf die vom Nutzer gewählte Anthrazit-Farbe umgestellt.
+- Alle acht HTML-Seiten auf Linkziele und Einbindung des Original-Logos geprüft (Stand: keine fehlerhaften internen Seitenpfade gefunden).
+- Noch vier externe Unsplash-Hintergrundbilder in `assets/styles.css`; vor öffentlichem Start sollen diese nach Lizenz-/Motivprüfung lokal gehostet oder bewusst durch eigene Fotos ersetzt werden. Unveränderte gewählte Bildgestaltung erhalten.
+- Datenschutz vor dem Livegang: genaue Netlify-Logdaten und Speicherdauer, mögliche Drittlandübermittlung und Auftragsverarbeitung rechtlich prüfen.
+- Weitere Veröffentlichungsschritte: responsiven Eindruck am Handy freigeben, Rechtstexte final fachlich prüfen, danach Domain verbinden und Private/Public bewusst umstellen.
