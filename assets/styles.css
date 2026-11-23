@@ -114,3 +114,35 @@ h2{color:#242629}
 .premium-services{padding:60px 0}
 }
 @media(min-width:761px) and (max-width:960px){.premium-service-grid{grid-template-columns:1fr 1fr}.premium-service-grid .premium-service-card:last-child{grid-column:1/-1}}
+
+
+/* Final selected Verdes Group logo: faithful original color reproduction on white */
+.site-header .brand,
+.footer .brand {
+ background:#fff;
+ border:1px solid #e9e3dc;
+ border-radius:8px;
+ padding:7px 10px;
+ display:inline-flex;
+ flex-shrink:0;
+ align-items:center;
+ justify-content:center;
+ overflow:hidden;
+ box-shadow:0 4px 13px rgba(8,8,8,.08)
+}
+.brand-logo{display:block;width:232px;height:auto;max-width:100%;aspect-ratio:640 / 125;object-fit:contain}
+.site-header .nav{gap:13px}
+.site-header .nav-links{gap:18px}
+.footer .brand{padding:10px 13px}
+.footer .brand-logo{width:268px}
+@media(max-width:1070px){.site-header .brand-logo{width:190px}.site-header .nav-links{gap:13px}.site-header .nav-links a{font-size:12px}}
+@media(max-width:940px){
+ .site-header .nav{min-height:74px}
+ .site-header .menu-button{display:block}
+ .site-header .nav-links{display:none;position:absolute;top:74px;left:0;right:0;background:#252627;padding:16px 23px 27px;border-bottom:1px solid #565454;box-shadow:0 20px 30px #00000020;flex-direction:column;align-items:stretch;gap:0}
+ .site-header .nav-links.open{display:flex}
+ .site-header .nav-links a{font-size:15px;padding:12px 5px}
+ .site-header .nav-links .nav-cta{text-align:center;margin-top:10px}
+ .site-header .brand-logo{width:228px}
+}
+@media(max-width:420px){.site-header .brand-logo{width:205px}.footer .brand-logo{width:245px}}
