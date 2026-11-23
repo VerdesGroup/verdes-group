@@ -161,3 +161,13 @@ h2{color:#242629}
   .premium-photo-caption span{font-size:25px}
   .premium-photo-caption small{font-size:10px}
 }
+
+/* Kontrastkorrektur: Überschriften auf dunklen Flächen auf allen Seiten lesbar */
+.cta-band h2,
+.contact-card.dark h2,
+.section-dark h1,
+.section-dark h2,
+.section-dark h3,
+.about-panel h3 {
+  color: #ffffff;
+}
