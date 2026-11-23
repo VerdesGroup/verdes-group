@@ -39,3 +39,5 @@ Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit
 - Verantwortlicher für den Betrieb der gemeinsamen Website: Vadim Verdes, Oldenburger Str. 128A, 27753 Delmenhorst.
 - M&V ist derzeit als Einzelunternehmen mit Inhaber bezeichnet; deshalb **nicht** die (organschaftliche) Bezeichnung "zwei Geschäftsführer" im Impressum verwenden, bis die Rechtsform etwas anderes belegt.
 - **Vor Livegang offen:** Firmierungen und Rechtsformen, eventuelle Handelsregistereinträge, USt-IdNr/W-IdNr, Genehmigungs-/Aufsichtsbehörde, Hosting-Auftragsverarbeitung, Datenschutzhinweise zu konkreten Serverlogs, Bildlizenzen, externen Bildzugriffen und rechtliche Prüfung.
+
+- Laut bestätigter Auskunft des Nutzers (23.11.2026) sind für Verdes Objektservice und Verdes Verkehrsleiter & Transportberater **keine USt-IdNr. oder W-IdNr. vorhanden**; daher im Impressum keine Identifikationsnummer für diese beiden Betriebe aufführen. M&V Transporte: USt-IdNr. DE344739509.
