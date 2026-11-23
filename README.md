@@ -23,3 +23,7 @@ Die Website ist für statisches Hosting ausgelegt. Sie ist **noch nicht auf verd
 ## DNS
 
 Beim Verbinden der Domain `verdes-group.de` die bestehenden Google Workspace MX-, SPF-, DKIM- und DMARC-Einträge nicht verändern.
+
+## Designfassung 02 (Premium)
+
+Der bevorzugte Entwurf ist als tatsächliches CSS-/HTML-Layout umgesetzt: Anthrazit, warmes Offwhite, Champagner-Akzente, Fotobanner und drei Geschäftskarten. Die in der HTML/CSS verwendeten Bilder stammen zurzeit als externe Entwurfsbilder von `images.unsplash.com` und sind **Symbolbilder**; sie zeigen nicht die tatsächlichen Geschäftsräume oder Fahrzeuge der Unternehmen. Bildauswahl, eventuelle Drittanbieter-Einbindungen, Datenschutz und Hosting müssen vor dem Livegang überprüft werden. Vorgesehen ist anschließend eine selbst gehostete, optimierte Bilderfassung.
