@@ -54,3 +54,11 @@ Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit
 - Noch vier externe Unsplash-Hintergrundbilder in `assets/styles.css`; vor öffentlichem Start sollen diese nach Lizenz-/Motivprüfung lokal gehostet oder bewusst durch eigene Fotos ersetzt werden. Unveränderte gewählte Bildgestaltung erhalten.
 - Datenschutz vor dem Livegang: genaue Netlify-Logdaten und Speicherdauer, mögliche Drittlandübermittlung und Auftragsverarbeitung rechtlich prüfen.
 - Weitere Veröffentlichungsschritte: responsiven Eindruck am Handy freigeben, Rechtstexte final fachlich prüfen, danach Domain verbinden und Private/Public bewusst umstellen.
+
+
+## M&V Transporte: Erfahrung, Fahrerbewerbungen und Kooperationen (23.11.2026)
+- Auf `/mv-transporte/` wurde eine sachliche Angabe über die vom Nutzer bestätigte, **seit mehr als fünf Jahren bestehende Zusammenarbeit als selbstständiger Transportdienstleister im GLS-Paketnetzwerk** ergänzt. Ohne GLS-Logo, ohne Behauptung einer gesellschaftsrechtlichen Verbindung oder offiziellen Empfehlung durch GLS.
+- **Vor öffentlicher Veröffentlichung unbedingt prüfen**, ob vertragliche Regelungen mit GLS Aussagen über die Zusammenarbeit im Marketing untersagen oder von einer Zustimmung abhängig machen. Die Nennung muss inhaltlich aktuell und zutreffend sein.
+- Zwei neue Bereiche: `#fahrer-bewerbung` für Initiativbewerbungen als Zustellfahrer (m/w/d), `#kooperation-anfragen` für Transport-/Logistikunternehmen, Kooperationen und mögliche zusätzliche Touren.
+- Die E-Mail-Schaltflächen für beide Zielgruppen sind auf `vadim@verdes-trans.com` gesetzt; kein Bewerbungsformular, keine angeforderten sensiblen Daten.
+- Die Datenschutz-Entwurfsseite enthält nun Informationen zu Fahrerbewerbungen bei M&V. Vor Veröffentlichung die tatsächliche Aufbewahrungsdauer, Zugriffsregelung und Bewerberdaten-Löschung verbindlich klären.
