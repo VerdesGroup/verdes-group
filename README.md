@@ -41,7 +41,7 @@ Der bevorzugte Entwurf ist als tatsächliches CSS-/HTML-Layout umgesetzt: Anthra
 
 ## Offizielles Verdes-Group-Logo
 
-Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit/Champagner-Beige ist als optimierte WebP-Datei unter `/assets/verdes-group-logo.webp` abgelegt und auf allen Seiten im Kopf- und Fußbereich integriert. Für hochwertige Druckprodukte das Original in maximaler Auflösung bzw. eine professionell nachgezeichnete Vektorversion verwenden.
+Seit der Auswahl vom 24.11.2026 verwendet Verdes Group das blaue Gebäude-/Skyline-Symbol aus dem Startseitenmotiv. Es liegt transparent unter `/assets/verdes-group-mark-blue.webp` und erscheint mit der als HTML gesetzten Wortmarke „VERDES GROUP“ auf allen acht Seiten im Kopf- und Fußbereich. Das passende Browsericon liegt unter `/assets/verdes-group-icon-blue.png`. Die bisherige V-Marke ist ersetzt, einschließlich der dekorativen Wasserzeichen auf Startseite und Über-uns-Seite. Die eigenständigen Geschäftsbereichslogos bleiben unverändert.
 
 ## Impressum und Datenschutz: verifizierter Arbeitsstand (2026-11-23)
 
@@ -77,7 +77,7 @@ Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit
 
 ## Bildintegration und Footer-Prüfung (23.11.2026)
 
-- Startseitenmotiv: zuletzt erstellte Datei „Verdes Group – Moderne Unternehmensdienste.png“, als `assets/images/verdes-group-unternehmen.webp` komprimiert; vollständiges Motiv ohne Beschnitt.
+- Startseitenmotiv: ausgewählte blaue Verdes-Group-Grafik; am 24.11.2026 um die Entfernung der weißen Geschäftsbereichsleiste überarbeitet, als `assets/images/verdes-group-unternehmen-v2.webp` komprimiert. Der Fotohintergrund setzt sich bis zum unteren Rand fort.
 - Objektservice: „Verdes Objektservice im modernen Empfangsbereich.png“, als `assets/images/verdes-objektservice.webp` auf Startseite und Dienstleistungsseite.
 - Verkehrsleitung: „Logistikberatung mit Vadim Verdes.png“, als `assets/images/verdes-verkehrsleitung.webp` auf Startseite und Dienstleistungsseite.
 - M&V: originales `mv_original_logo_cropped.webp`, unverändert als `assets/images/mv-transporte-logo.webp` auf Startseite und Partnerseite.
@@ -86,3 +86,13 @@ Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit
 - CSS und JavaScript verwenden einen Versionsparameter, damit eine ältere Datei nicht versehentlich im Browser weiterverwendet wird.
 - Mobiles Menü: Schließen setzt jetzt auch die Beschriftung zurück; Escape schließt das Menü und fokussiert den Menüknopf.
 - Die übrigen offenen Aufgaben zum Netlify-Hosting und zu den Rechtstexten bleiben vor dem öffentlichen Start bestehen. Keine Änderung an Domain, DNS oder Zugriffsrechten.
+
+
+## Einheitliche blaue Dachmarke (24.11.2026)
+
+- Neues blaues Gebäude-Logo an allen 16 Logo-Stellen (je Header und Footer) und als Browsericon auf allen acht Seiten.
+- Weißes Logo-Feld und vorhandenes Seitenlayout beibehalten; das Symbol wird durch echte Schrift ergänzt, damit der Firmenname auch auf kleinen Bildschirmen scharf bleibt.
+- Die beiden dekorativen V-Wasserzeichen verwenden jetzt ebenfalls das neue Symbol.
+- Im Startseitenbild wurden die untere weiße Leiste, die drei Bereichsnamen, Piktogramme und Trennlinien entfernt. Die bestehende Architektur wurde bis zum unteren Bildrand erweitert. Logo, Name und Slogan bleiben erhalten.
+- Die drei Leistungs-Karten unter dem Bild und die eigentliche HTML-Fußleiste bleiben erhalten.
+- Logo-Freistellung und Bannerbearbeitung mit dem integrierten Bildwerkzeug anhand der vom Nutzer am 24.11.2026 bestätigten Referenz. Kurzfassung der Bildanweisungen: „Nur die weiße Geschäftsbereichsleiste entfernen und die vorhandene Fotografie nach unten fortsetzen; Logo, Titel und Slogan erhalten.“ / „Nur das blaue sechsflächige Gebäude-Symbol mit den beiden geschwungenen Linien auf transparentem Hintergrund freistellen; keine neue Gestaltung oder Schrift.“
