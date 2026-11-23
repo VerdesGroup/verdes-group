@@ -27,3 +27,7 @@ Beim Verbinden der Domain `verdes-group.de` die bestehenden Google Workspace MX-
 ## Designfassung 02 (Premium)
 
 Der bevorzugte Entwurf ist als tatsächliches CSS-/HTML-Layout umgesetzt: Anthrazit, warmes Offwhite, Champagner-Akzente, Fotobanner und drei Geschäftskarten. Die in der HTML/CSS verwendeten Bilder stammen zurzeit als externe Entwurfsbilder von `images.unsplash.com` und sind **Symbolbilder**; sie zeigen nicht die tatsächlichen Geschäftsräume oder Fahrzeuge der Unternehmen. Bildauswahl, eventuelle Drittanbieter-Einbindungen, Datenschutz und Hosting müssen vor dem Livegang überprüft werden. Vorgesehen ist anschließend eine selbst gehostete, optimierte Bilderfassung.
+
+## Offizielles Verdes-Group-Logo
+
+Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit/Champagner-Beige ist als optimierte WebP-Datei unter `/assets/verdes-group-logo.webp` abgelegt und auf allen Seiten im Kopf- und Fußbereich integriert. Für hochwertige Druckprodukte das Original in maximaler Auflösung bzw. eine professionell nachgezeichnete Vektorversion verwenden.
