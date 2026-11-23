@@ -6,13 +6,24 @@ Statische, responsive Website für die Dachmarke **Verdes Group**.
 
 - / – Startseite
 - /objektservice/ – Verdes Objektservice
-- /verkehrsleitung/ – Verdes Verkehrsleiter & Transportberater\n- /mv-transporte/ – M&amp;V Transporte (rechtlich eigenständiges Partnerunternehmen)
+- /verkehrsleitung/ – Verdes Verkehrsleiter & Transportberater
+- /mv-transporte/ – M&amp;V Transporte (rechtlich eigenständiges Partnerunternehmen)
 - /ueber-uns/ – Über uns
 - /kontakt/ – Kontakt
 - /impressum/ – Entwurf; **vor Veröffentlichung vervollständigen**
 - /datenschutz/ – Entwurf; **vor Veröffentlichung vervollständigen**
 
-## Geschäftsbereiche und Kontaktadressen\n\n- Verdes Objektservice — Inhaberin Ana Verdes — objektservice@verdes-group.de\n- Verdes Verkehrsleiter & Transportberater — Inhaber Vadim Verdes — verkehrsleiter@verdes-trans.com\n- M&V Transporte — Inhaber Alexandros Milidis — betriebliche Zusammenarbeit mit Vadim Verdes — vadim@verdes-trans.com\n\n**verdes-group.de ist die Hauptdomain.** Die bestehende Domain verdes-trans.com bleibt für E-Mail-Adressen im Einsatz. Kein Domainwechsel für bestehende E-Mail-Postfächer erforderlich.\n\nDie rechtliche Partnerstruktur darf nicht als gesellschaftsrechtliche 50/50-Beteiligung dargestellt werden, solange diese nicht rechtlich geklärt bzw. dokumentiert ist.\n\n## Lokal ansehen
+## Geschäftsbereiche und Kontaktadressen
+
+- Verdes Objektservice — Inhaberin Ana Verdes — objektservice@verdes-group.de
+- Verdes Verkehrsleiter & Transportberater — Inhaber Vadim Verdes — verkehrsleiter@verdes-trans.com
+- M&V Transporte — Inhaber Alexandros Milidis — betriebliche Zusammenarbeit mit Vadim Verdes — vadim@verdes-trans.com
+
+**verdes-group.de ist die Hauptdomain.** Die bestehende Domain verdes-trans.com bleibt für E-Mail-Adressen im Einsatz. Kein Domainwechsel für bestehende E-Mail-Postfächer erforderlich.
+
+Die rechtliche Partnerstruktur darf nicht als gesellschaftsrechtliche 50/50-Beteiligung dargestellt werden, solange diese nicht rechtlich geklärt bzw. dokumentiert ist.
+
+## Lokal ansehen
 
 Im Repositoryordner einen lokalen HTTP-Server starten, z. B. `python -m http.server 8000`, dann `http://localhost:8000` öffnen.
 
@@ -26,7 +37,7 @@ Beim Verbinden der Domain `verdes-group.de` die bestehenden Google Workspace MX-
 
 ## Designfassung 02 (Premium)
 
-Der bevorzugte Entwurf ist als tatsächliches CSS-/HTML-Layout umgesetzt: Anthrazit, warmes Offwhite, Champagner-Akzente, Fotobanner und drei Geschäftskarten. Die in der HTML/CSS verwendeten Bilder stammen zurzeit als externe Entwurfsbilder von `images.unsplash.com` und sind **Symbolbilder**; sie zeigen nicht die tatsächlichen Geschäftsräume oder Fahrzeuge der Unternehmen. Bildauswahl, eventuelle Drittanbieter-Einbindungen, Datenschutz und Hosting müssen vor dem Livegang überprüft werden. Vorgesehen ist anschließend eine selbst gehostete, optimierte Bilderfassung.
+Der bevorzugte Entwurf ist als tatsächliches CSS-/HTML-Layout umgesetzt: Anthrazit, warmes Offwhite, Champagner-Akzente, Fotobanner und drei Geschäftskarten. Die Markenmotive für die Startseite, Objektservice und Verkehrsleitung sind als optimierte WebP-Dateien unter `assets/images/` eingebunden und sichtbar als **Symbolbilder** gekennzeichnet. Das Original-M&V-Logo wird unverändert verwendet. Die Bilddateien werden gemeinsam mit der Website bereitgestellt; externe Unsplash-Aufrufe wurden entfernt. Die Motive zeigen keine nachgewiesenen Geschäftsräume oder Unternehmensfahrzeuge.
 
 ## Offizielles Verdes-Group-Logo
 
@@ -51,7 +62,7 @@ Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit
 - Datenschutzerklärung als **Entwurf** konkretisiert: Hosting durch Netlify, Inc., Datenverarbeitungs-Verweise und Prüfaufgaben eingefügt.
 - Browser-`theme-color` auf die vom Nutzer gewählte Anthrazit-Farbe umgestellt.
 - Alle acht HTML-Seiten auf Linkziele und Einbindung des Original-Logos geprüft (Stand: keine fehlerhaften internen Seitenpfade gefunden).
-- Noch vier externe Unsplash-Hintergrundbilder in `assets/styles.css`; vor öffentlichem Start sollen diese nach Lizenz-/Motivprüfung lokal gehostet oder bewusst durch eigene Fotos ersetzt werden. Unveränderte gewählte Bildgestaltung erhalten.
+- Die zunächst vier externen Unsplash-Hintergrundbilder wurden durch die lokal eingebundenen Markenmotive und das originale M&V-Logo ersetzt (siehe Bildintegration unten).
 - Datenschutz vor dem Livegang: genaue Netlify-Logdaten und Speicherdauer, mögliche Drittlandübermittlung und Auftragsverarbeitung rechtlich prüfen.
 - Weitere Veröffentlichungsschritte: responsiven Eindruck am Handy freigeben, Rechtstexte final fachlich prüfen, danach Domain verbinden und Private/Public bewusst umstellen.
 
@@ -62,3 +73,16 @@ Die vom Nutzer verbindlich ausgewählte horizontale Fassung in Schwarz/Anthrazit
 - Zwei neue Bereiche: `#fahrer-bewerbung` für Initiativbewerbungen als Zustellfahrer (m/w/d), `#kooperation-anfragen` für Transport-/Logistikunternehmen, Kooperationen und mögliche zusätzliche Touren.
 - Die E-Mail-Schaltflächen für beide Zielgruppen sind auf `vadim@verdes-trans.com` gesetzt; kein Bewerbungsformular, keine angeforderten sensiblen Daten.
 - Die Datenschutz-Entwurfsseite enthält nun Informationen zu Fahrerbewerbungen bei M&V. Vor Veröffentlichung die tatsächliche Aufbewahrungsdauer, Zugriffsregelung und Bewerberdaten-Löschung verbindlich klären.
+
+
+## Bildintegration und Footer-Prüfung (23.11.2026)
+
+- Startseitenmotiv: zuletzt erstellte Datei „Verdes Group – Moderne Unternehmensdienste.png“, als `assets/images/verdes-group-unternehmen.webp` komprimiert; vollständiges Motiv ohne Beschnitt.
+- Objektservice: „Verdes Objektservice im modernen Empfangsbereich.png“, als `assets/images/verdes-objektservice.webp` auf Startseite und Dienstleistungsseite.
+- Verkehrsleitung: „Logistikberatung mit Vadim Verdes.png“, als `assets/images/verdes-verkehrsleitung.webp` auf Startseite und Dienstleistungsseite.
+- M&V: originales `mv_original_logo_cropped.webp`, unverändert als `assets/images/mv-transporte-logo.webp` auf Startseite und Partnerseite.
+- Die drei großen Motive sind bei unveränderten Bildabmessungen im WebP-Format komprimiert. Motive und Logos werden im Browser ohne zusätzliche Bildanbieter geladen. Die ursprünglichen Bilddateien bleiben außerhalb dieses Repositorys erhalten.
+- Einheitlicher Footer auf allen acht Seiten: „Geschäftsbereiche“ und „Informationen“, lesbarere Links, weiß hervorgehobene Überschriften und beige Abschlusslinie. Keine direkten E-Mail-Adressen im Footer.
+- CSS und JavaScript verwenden einen Versionsparameter, damit eine ältere Datei nicht versehentlich im Browser weiterverwendet wird.
+- Mobiles Menü: Schließen setzt jetzt auch die Beschriftung zurück; Escape schließt das Menü und fokussiert den Menüknopf.
+- Die übrigen offenen Aufgaben zum Netlify-Hosting und zu den Rechtstexten bleiben vor dem öffentlichen Start bestehen. Keine Änderung an Domain, DNS oder Zugriffsrechten.
