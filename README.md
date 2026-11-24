@@ -72,7 +72,7 @@ Seit der Auswahl vom 24.11.2026 verwendet Verdes Group das blaue Gebäude-/Skyli
 - **Vor öffentlicher Veröffentlichung unbedingt prüfen**, ob vertragliche Regelungen mit GLS Aussagen über die Zusammenarbeit im Marketing untersagen oder von einer Zustimmung abhängig machen. Die Nennung muss inhaltlich aktuell und zutreffend sein.
 - Zwei neue Bereiche: `#fahrer-bewerbung` für Initiativbewerbungen als Zustellfahrer (m/w/d), `#kooperation-anfragen` für Transport-/Logistikunternehmen, Kooperationen und mögliche zusätzliche Touren.
 - Die E-Mail-Schaltflächen für beide Zielgruppen sind auf `vadim@verdes-trans.com` gesetzt; kein Bewerbungsformular, keine angeforderten sensiblen Daten.
-- Die Datenschutz-Entwurfsseite enthält nun Informationen zu Fahrerbewerbungen bei M&V. Vor Veröffentlichung die tatsächliche Aufbewahrungsdauer, Zugriffsregelung und Bewerberdaten-Löschung verbindlich klären.
+- Die Datenschutz-Entwurfsseite enthält Informationen zu Fahrerbewerbungen bei M&V. Am 24.11.2026 vom Nutzer festgelegt und in der Datenschutzerklärung übernommen: Abgelehnte Bewerbungen grundsätzlich drei Monate nach Mitteilung der Absage löschen. Im Einzelfall erforderliche gesetzliche Aufbewahrung oder Rechtsverfolgung/-verteidigung bleibt ausgenommen; nur hierfür benötigte Daten für die erforderliche Dauer speichern und anschließend löschen. Die Dreimonatsfrist ist eine betriebliche Regelung, keine behauptete gesetzliche Einheitsfrist. M&V Transporte ist für die praktische Umsetzung verantwortlich. Die zwischenzeitlich im Website-Text ergänzte Regel zum alleinigen Zugriff von Vadim auf das Bewerbungs-Postfach bleibt erhalten.
 
 
 ## Bildintegration und Footer-Prüfung (23.11.2026)
@@ -96,3 +96,11 @@ Seit der Auswahl vom 24.11.2026 verwendet Verdes Group das blaue Gebäude-/Skyli
 - Im Startseitenbild wurden die untere weiße Leiste, die drei Bereichsnamen, Piktogramme und Trennlinien entfernt. Die bestehende Architektur wurde bis zum unteren Bildrand erweitert. Logo, Name und Slogan bleiben erhalten.
 - Die drei Leistungs-Karten unter dem Bild und die eigentliche HTML-Fußleiste bleiben erhalten.
 - Logo-Freistellung und Bannerbearbeitung mit dem integrierten Bildwerkzeug anhand der vom Nutzer am 24.11.2026 bestätigten Referenz. Kurzfassung der Bildanweisungen: „Nur die weiße Geschäftsbereichsleiste entfernen und die vorhandene Fotografie nach unten fortsetzen; Logo, Titel und Slogan erhalten.“ / „Nur das blaue sechsflächige Gebäude-Symbol mit den beiden geschwungenen Linien auf transparentem Hintergrund freistellen; keine neue Gestaltung oder Schrift.“
+
+
+## Datenschutz-Abschlussprüfung (24.11.2026)
+
+- Netlify erklärt unter https://www.netlify.com/gdpr-ccpa/, dass das Data Processing Agreement durch Verweis Bestandteil seiner Vertragsbedingungen ist. Für den Standardvertrag daher nicht pauschal einen fehlenden separaten DPA-Abschluss behaupten.
+- Nach Netlify-DPA, Stand 13.11.2026, Exhibit II, Abschnitt 5 A (https://www.netlify.com/pdf/netlify-dpa.pdf), werden CDN-Zugriffslogs 30 Tage online und bis zu 13 Monate im Archiv vorgehalten. Allgemeine Plattformlogs: 90 Tage online und ein Jahr offline; Sicherheits-/Missbrauchslogs: 365 Tage online und bis zu sechs Jahre im Archiv. Diese Kategorien und Online-/Archivfristen getrennt darstellen; daraus keine pauschale 30-Tage-Löschung aller Besucherdaten ableiten.
+- Der tatsächliche Aktivierungsstatus zusätzlicher Netlify-Web-Analytics-, RUM- und Log-Export-Funktionen ist noch anhand der Projekteinstellungen zu prüfen. Fehlende Analytics-Skripte im Quellcode belegen keinen ausgeschalteten serverseitigen Statistikdienst.
+- Die dreimonatige Bewerberdatenfrist ist die bestätigte betriebliche Löschregel. Die LfD Niedersachsen nennt keine allgemeine gesetzliche Einheitsfrist: https://www.lfd.niedersachsen.de/startseite/infothek/faqs_zur_ds_gvo/aufbewahrungs-und-loschfristen-von-bewerbungsunterlagen-204360.html . Notwendige Rechtsaufbewahrung bleibt im Einzelfall ausgenommen.
