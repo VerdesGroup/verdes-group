@@ -480,3 +480,8 @@ a:focus-visible,button:focus-visible{outline-color:#ab865d}
 .mv-service-image-note{font-size:12px;color:#716b65;line-height:1.6;margin:15px 0 0}
 @media(max-width:960px){.mv-strength-grid{grid-template-columns:1fr;gap:12px}.mv-strength-grid>article{padding:18px 22px}}
 @media(max-width:760px){.mv-service-grid{grid-template-columns:1fr;gap:18px}.mv-service-body{padding:23px 25px 27px}.mv-fleet-visual>figcaption{padding:10px 15px}.mv-strength-strip{padding:22px 0}}
+
+/* M&V contact languages: complete labels and a separate Greek row */
+.mv-contact-languages{display:flex;flex-direction:column;gap:8px;margin-top:16px;max-width:100%}
+.mv-contact-languages .mv-language-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0}
+.mv-contact-languages .mv-language-row span{display:inline-flex;align-items:center;white-space:nowrap;line-height:1.4;max-width:100%;box-sizing:border-box}
