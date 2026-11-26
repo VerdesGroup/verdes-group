@@ -529,3 +529,22 @@ a:focus-visible,button:focus-visible{outline-color:#ab865d}
 .language-footer .footer-bottom a{display:inline}
 @media(max-width:760px){.localized-two,.localized-steps{grid-template-columns:1fr}.localized-hero .page-hero-grid{grid-template-columns:1fr;margin-top:22px}.localized-hero{padding-top:28px}.language-header .nav{min-height:70px}.language-header .language-back{font-size:12px}.localized-panel{padding:25px}.localized-steps article{padding:22px}}
 @media(max-width:420px){.language-choice{gap:6px}.language-choice a{padding:7px 12px;font-size:12px}.language-header .nav{gap:10px}.language-header .brand{gap:8px}}
+
+/* Rueckruf: zwei Angaben, eigenstaendige Formulare, responsive */
+.callback-section{scroll-margin-top:100px;background:#faf8f5}
+.callback-panel{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(28px,5vw,70px);align-items:center;border:1px solid #e1d9ce;border-radius:24px;padding:clamp(26px,4vw,52px);background:#fff;box-shadow:0 12px 35px #27252309}
+.callback-intro{min-width:0}
+.callback-intro h2{font-size:clamp(29px,3.3vw,44px);line-height:1.13;margin:12px 0 20px;overflow-wrap:break-word}
+.callback-intro p{font-size:16px;line-height:1.7;color:#5b5e60;max-width:42ch}
+.callback-intro .callback-direct{font-size:13px;line-height:1.8;margin-bottom:0}
+.callback-direct a,.callback-privacy a,.callback-short-link a{color:#775b3d;text-decoration:underline;text-underline-offset:3px}
+.callback-form{min-width:0;display:flex;flex-direction:column;align-items:stretch;gap:17px;margin:0}
+.callback-field{display:grid;gap:7px;min-width:0}
+.callback-field label{font-size:14px;font-weight:750;color:#373635}
+.callback-field input,.callback-field select{width:100%;min-width:0;min-height:50px;padding:12px 15px;border:1px solid #d9d1c6;border-radius:10px;background:#fff;font-family:inherit;font-size:16px;color:#292a2c}
+.callback-field input:focus,.callback-field select:focus{outline:2px solid #a98a68;outline-offset:2px}
+.callback-privacy{font-size:12px;line-height:1.65;color:#6c6660;margin:0}
+.callback-form .btn{align-self:flex-start;max-width:100%;white-space:normal;text-align:center}
+.callback-form [hidden]{display:none!important}
+.callback-short-link{font-size:13px;margin:15px 0 0}
+@media(max-width:760px){.callback-panel{grid-template-columns:1fr;gap:26px;padding:26px 22px}.callback-form .btn{width:100%}.callback-section{scroll-margin-top:85px}.callback-intro p{max-width:none}}
