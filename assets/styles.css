@@ -408,3 +408,7 @@ a:focus-visible,button:focus-visible{outline-color:#ab865d}
 @media(max-width:980px){.verkehr-process-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.verkehr-audience-grid,.verkehr-faq-layout{grid-template-columns:1fr}.verkehr-faq-layout{gap:28px}.verkehr-service-grid .feature{min-height:0}}
 @media(max-width:520px){.verkehr-process-grid{grid-template-columns:1fr}.verkehr-audience-panel{padding:27px 23px}.verkehr-process-step{padding:24px 23px}.verkehr-faq-list summary{padding:18px 20px;font-size:15px}.verkehr-faq-list details p{padding:0 20px 18px}}
+
+.verkehr-maps-link{margin:15px 0 24px;font-size:14px;line-height:1.65}
+.verkehr-maps-link a{color:#7b5b37;font-weight:750;text-decoration:underline;text-underline-offset:4px}
+.verkehr-maps-link a:hover{color:#343333}
