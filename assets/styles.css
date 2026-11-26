@@ -412,3 +412,44 @@ a:focus-visible,button:focus-visible{outline-color:#ab865d}
 .verkehr-maps-link{margin:15px 0 24px;font-size:14px;line-height:1.65}
 .verkehr-maps-link a{color:#7b5b37;font-weight:750;text-decoration:underline;text-underline-offset:4px}
 .verkehr-maps-link a:hover{color:#343333}
+
+
+/* Verkehrsleitung: bebilderte Dienstleistungen und Praxis / Elektro-Sprinter */
+.verkehr-service-grid{align-items:stretch}
+.verkehr-service-grid .verkehr-feature-card{padding:0;min-height:0;display:flex;flex-direction:column;overflow:hidden;border:1px solid #e2d9ce;border-radius:20px;background:#fff;box-shadow:0 8px 26px rgba(27,30,34,.065)}
+.verkehr-service-grid .verkehr-feature-card>img{width:100%;height:auto;aspect-ratio:12/7;object-fit:cover;display:block;background:#e6e9e7}
+.verkehr-service-grid .verkehr-feature-body{flex:1;padding:24px 27px 28px}
+.verkehr-service-grid .verkehr-feature-body .feature-index{margin:0 0 14px;font-weight:800;color:#987858}
+.verkehr-service-grid .verkehr-feature-body h3{font-size:clamp(20px,1.6vw,23px);line-height:1.28;margin-bottom:12px}
+.verkehr-service-grid .verkehr-feature-body p{font-size:14px;line-height:1.7}
+.verkehr-electric-section{background:#f5f2ed}
+.verkehr-electric-panel{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(0,.82fr);border-radius:24px;background:#292d34;overflow:hidden;box-shadow:0 17px 48px rgba(30,30,30,.12)}
+.verkehr-electric-copy{padding:clamp(32px,4vw,56px);color:#fff}
+.verkehr-electric-copy .eyebrow{color:#e3c59d}
+.verkehr-electric-copy h2{font-size:clamp(30px,3vw,43px);line-height:1.12;color:#fff;max-width:660px}
+.verkehr-electric-copy p{color:#e6e1da;font-size:15px;line-height:1.78;max-width:70ch}
+.verkehr-electric-copy p strong{color:#fff}
+.verkehr-electric-copy .verkehr-electric-small{font-size:13px;color:#c9c7c3}
+.verkehr-electric-copy .btn{margin-top:10px}
+.verkehr-electric-gallery{display:flex;flex-direction:column;justify-content:center;gap:16px;padding:26px 24px 20px;background:#383c43}
+.verkehr-electric-gallery figure{margin:0;border-radius:12px;overflow:hidden;background:#eef2f3}
+.verkehr-electric-gallery img{display:block;width:100%;height:auto;aspect-ratio:680/292;object-fit:cover}
+.verkehr-electric-note{font-size:11px;line-height:1.55;color:#d4d5d6}
+.verkehr-language-section{background:#fff}
+.verkehr-language-box{display:grid;grid-template-columns:1.4fr .6fr;gap:36px;align-items:center;border-top:1px solid #e3ddd5;border-bottom:1px solid #e3ddd5;padding:34px 0}
+.verkehr-language-box h2{font-size:clamp(27px,2.8vw,39px);line-height:1.2;margin:9px 0 15px}
+.verkehr-language-box p{font-size:15px;color:#60656b;line-height:1.75;margin:0}
+.verkehr-language-tags{display:grid;gap:11px}
+.verkehr-language-tags>span{display:block;padding:10px 16px;border:1px solid #dfd5c8;border-radius:100px;background:#faf8f5;color:#403f40;font-weight:750;font-size:15px;text-align:center}
+.verkehr-practice-section{background:#fbfaf8}
+.verkehr-practice-section .section-head{max-width:840px}
+.verkehr-practice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:23px}
+.verkehr-practice-card{padding:clamp(26px,3.4vw,42px);background:#fff;border:1px solid #e2dbd1;border-radius:21px;box-shadow:0 8px 26px #2525250b}
+.verkehr-practice-count{display:block;font-size:11px;color:#a2805c;font-weight:800;letter-spacing:.12em;text-transform:uppercase;margin-bottom:19px}
+.verkehr-practice-card h3{font-size:clamp(24px,2.5vw,31px);line-height:1.2;margin:0 0 19px;color:#292b2d}
+.verkehr-practice-card p{font-size:15px;line-height:1.76;color:#5e6468;margin:0}
+.verkehr-profile-photo{display:block;width:min(100%,460px);height:auto;margin-top:24px;border-radius:12px;border:1px solid #e4dcd2;box-shadow:0 10px 30px #22222213}
+.verkehr-faq-list details a{text-decoration:underline;text-underline-offset:3px;color:#876443}
+@media(max-width:940px){.verkehr-electric-panel{grid-template-columns:1fr}.verkehr-electric-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.verkehr-electric-note{grid-column:1/-1}}
+@media(max-width:760px){.verkehr-practice-grid,.verkehr-language-box{grid-template-columns:1fr}.verkehr-language-box{gap:24px}.verkehr-language-tags{grid-template-columns:1fr}.verkehr-service-grid .verkehr-feature-body{padding:23px 25px 27px}}
+@media(max-width:530px){.verkehr-electric-copy{padding:29px 22px}.verkehr-electric-gallery{grid-template-columns:1fr;padding:20px}.verkehr-electric-note{grid-column:auto}.verkehr-practice-card{padding:29px 23px}.verkehr-service-grid .verkehr-feature-card>img{aspect-ratio:12/7}.verkehr-language-tags>span{font-size:14px}}
