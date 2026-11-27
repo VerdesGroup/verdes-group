@@ -548,3 +548,14 @@ a:focus-visible,button:focus-visible{outline-color:#ab865d}
 .callback-form [hidden]{display:none!important}
 .callback-short-link{font-size:13px;margin:15px 0 0}
 @media(max-width:760px){.callback-panel{grid-template-columns:1fr;gap:26px;padding:26px 22px}.callback-form .btn{width:100%}.callback-section{scroll-margin-top:85px}.callback-intro p{max-width:none}}
+
+/* Localized callback confirmation */
+.callback-form[hidden],.callback-confirmation[hidden],.callback-status[hidden]{display:none!important}
+.callback-form .btn:disabled{opacity:.65;cursor:wait}
+.callback-status{margin:0;font-size:14px;line-height:1.6;color:#5b5e60}
+.callback-status.callback-error{color:#8b3028}
+.callback-confirmation{min-width:0;padding:clamp(23px,3vw,35px);border:1px solid #d8e1d9;border-radius:18px;background:#f7faf7;align-self:stretch;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:13px}
+.callback-confirmation:focus{outline:2px solid #a98a68;outline-offset:3px}
+.callback-confirmation-icon{display:grid;place-items:center;background:#e6eee6;color:#365b42;width:49px;height:49px;border-radius:50%}
+.callback-confirmation h3{margin:0;font-size:clamp(23px,2.2vw,30px);line-height:1.25;color:#292b2d;overflow-wrap:break-word}
+.callback-confirmation p{margin:0;color:#4d5950;font-size:16px;line-height:1.7}
